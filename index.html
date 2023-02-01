@@ -4,21 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JS</title>
-    <link rel="stylesheet" href="styles/mystyle.css">
+    <title>To do list</title>
 </head>
 <body>
-    <h1>JavaScript</h1>
-    <button onclick="addStudent();">Add an student</button>
-    <div id="text">
-
+    <h1>My super duper to do list</h1>
+    <div>
+        <input type="text" id="txtTask">
+        <button onclick="addTask();">Add a new task</button>
     </div>
-    <!-- <script>
-        alert("Something");
-        console.log("This is a message");
-        console.warn("This is a warning");
-        console.error("This is an error");
-    </script> -->
-    <script src="scripts/script4.js"></script>
+    <div>
+        <h2>Task in the list ✔️<sup id="amountList"></sup></h2>
+        <ul id="taskList">
+
+        </ul>
+    </div>
+    <script src="toDoList.js"></script>
 </body>
 </html>
